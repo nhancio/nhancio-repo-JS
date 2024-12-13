@@ -6,6 +6,8 @@ import ContactUs from '../ContactUs/ContactUs'
 import OurWork from '../OurWork/OurWork'
 import Footer from '../Footer/Footer'
 import Home from '../Home/Home'
+import AboutUs from '../AboutUsHomePage/AboutUsHomePage'
+import { ContactUsHomePage } from '../ContactUsHomePage/ContactUsHomePage'
 
 const HomePage = () => {
   return (
@@ -14,8 +16,10 @@ const HomePage = () => {
       <Home/>
       <Services/>
       <ChooseUs/>
-      <OurWork/>
-      <ContactUs/>
+      {/* <OurWork/> */}
+      {/* <ContactUs/> */}
+      <AboutUs/>
+      <ContactUsHomePage/>
       <Footer/>
     </div>
   )

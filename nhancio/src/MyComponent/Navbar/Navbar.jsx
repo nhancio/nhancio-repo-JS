@@ -74,22 +74,22 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link"  href="#services" >
                   Services
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Projects
+                  Our Work
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#aboutUs" >
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link abc" href="#">
+                <a className="nav-link abc" href="#contactUsHomePage">
                   Contact Us
                 </a>
               </li>
@@ -100,7 +100,7 @@ const Navbar = () => {
                   }`}
                   href="#"
                 >
-                  Learn&Earn
+                  Careers
                 </a>
               </li>
             </ul>
